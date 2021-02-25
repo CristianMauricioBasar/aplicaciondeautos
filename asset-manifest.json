@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aplicaciondeautos/static/css/main.1a4ae84d.chunk.css",
+    "main.js": "/aplicaciondeautos/static/js/main.0d65d39c.chunk.js",
+    "main.js.map": "/aplicaciondeautos/static/js/main.0d65d39c.chunk.js.map",
+    "runtime-main.js": "/aplicaciondeautos/static/js/runtime-main.ea283b12.js",
+    "runtime-main.js.map": "/aplicaciondeautos/static/js/runtime-main.ea283b12.js.map",
+    "static/js/2.3d540872.chunk.js": "/aplicaciondeautos/static/js/2.3d540872.chunk.js",
+    "static/js/2.3d540872.chunk.js.map": "/aplicaciondeautos/static/js/2.3d540872.chunk.js.map",
+    "index.html": "/aplicaciondeautos/index.html",
+    "static/css/main.1a4ae84d.chunk.css.map": "/aplicaciondeautos/static/css/main.1a4ae84d.chunk.css.map",
+    "static/js/2.3d540872.chunk.js.LICENSE.txt": "/aplicaciondeautos/static/js/2.3d540872.chunk.js.LICENSE.txt",
+    "static/media/1.0f6776f2.png": "/aplicaciondeautos/static/media/1.0f6776f2.png",
+    "static/media/flechaderecha.29416201.svg": "/aplicaciondeautos/static/media/flechaderecha.29416201.svg",
+    "static/media/flechaisquierda.23923631.svg": "/aplicaciondeautos/static/media/flechaisquierda.23923631.svg",
+    "static/media/menu.4eaadc7c.svg": "/aplicaciondeautos/static/media/menu.4eaadc7c.svg",
+    "static/media/menucerrar.e5bfe7da.svg": "/aplicaciondeautos/static/media/menucerrar.e5bfe7da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea283b12.js",
+    "static/js/2.3d540872.chunk.js",
+    "static/css/main.1a4ae84d.chunk.css",
+    "static/js/main.0d65d39c.chunk.js"
+  ]
+}
