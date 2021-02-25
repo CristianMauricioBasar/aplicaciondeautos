@@ -1,0 +1,101 @@
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 1px #373737;
+  display: flex;
+  background: white;
+}
+
+.header .logo{
+  margin-left: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header .menuicono{
+  margin-top: 0;
+  margin-right: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header .logo img{
+}
+
+.header .menuicono svg{
+  width: 100%;
+  height: 37px;
+  fill: black;
+  stroke-width: 17px;
+  stroke: white;
+}
+
+.header nav{
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.header nav ul{
+  width: 65%;
+  height: 100%;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0;
+  width: 150px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header nav ul li:hover{
+  border-bottom: solid 3px red;
+  transition: all 0.3s;
+}
+
+.header nav ul li a:hover{
+  color: red;
+  transition: all 0.5s;
+}
+
+@media (min-width: 768px) {
+  .header nav{
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header nav ul{
+    width: 42%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header nav ul{
+    width: 32%;
+  }
+}
