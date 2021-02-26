@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import './inicio.css'
+import urlstorage from '../urlstorage'
 
 class Inicio extends Component{
   _montado = false
@@ -31,7 +32,7 @@ class Inicio extends Component{
             <li>{auto.modelo}</li>
             <li>${auto.precio}</li>
           </ul>
-          <img src={auto.imagen} alt={auto.titulo}/>
+          <img src={`${urlstorage}/autos/${auto.imagen}`} alt={auto.titulo}/>
           <div><span><Link to={`/auto/${auto.id}`}>Ver Modelo</Link></span></div>
         </article>
       })

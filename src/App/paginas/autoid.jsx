@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './autoid.css'
 import Slider from '../componentes/autoid/slider'
+import urlstorage from '../urlstorage'
 
 class Autoid extends Component{
   _montado = false
@@ -41,7 +42,7 @@ class Autoid extends Component{
     if(auto){
       listaimagenes = Object.entries(auto.datosimagenes).map(([key, dato]) => {
         return <li key={key}>
-          <img src={dato.imagen} alt={dato.titulo}/>
+          <img src={`${urlstorage}/autos/imagenes/${dato.imagen}`} alt={dato.titulo}/>
           <div className="detalles2">
             <h2>{dato.titulo}</h2>
             <p>{dato.descripcion}</p>
@@ -54,7 +55,7 @@ class Autoid extends Component{
       return(
         <section className="autoid" style={{ margin: `${alto}px 0 0 0` }}>
           <article>
-            <img src={auto.imagen} alt={auto.titulo}/>
+            <img src={`${urlstorage}/autos/${auto.imagen}`} alt={auto.titulo}/>
             <div className="detalles">
               <h1>{auto.titulo}</h1>
               <h2>Nuevo {auto.titulo} {auto.modelo}</h2>

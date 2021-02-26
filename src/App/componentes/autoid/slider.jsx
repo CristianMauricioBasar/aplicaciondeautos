@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './slider.css'
 import {ReactComponent as Iconoflechaisquierda} from '../../imagenes/flechaisquierda.svg'
 import {ReactComponent as Iconoflechaderecha} from '../../imagenes/flechaderecha.svg'
+import urlstorage from '../../urlstorage'
 
 class Slider extends Component{
   _montado = false
@@ -137,7 +138,7 @@ class Slider extends Component{
         infosliderlista = Object.entries(infoslider).map(([key, info]) => {
           if(infoamostar === parseInt(key)){
             return <li key={key}>
-            <img src={info.imagen} alt={info.titulo} />
+            <img src={`${urlstorage}/autos/slider/${info.imagen}`} alt={info.titulo} />
             <h3>{info.titulo}</h3>
             <p>{info.descripcion}</p>
             </li>
